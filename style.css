@@ -1,0 +1,69 @@
+body{
+      
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    padding: 0%;
+    display: block;
+    
+    }
+    
+    nav a{
+        padding-top: 15px;
+        display: inline;
+        margin-right: 50px;
+        float: right;
+        text-decoration: none;
+        color: white;
+    }
+
+.container{
+    
+    width: auto; 
+    padding: 20px;
+    margin: 0 auto;
+ }
+ #statement{
+    word-spacing: 10px;
+    float: center;
+    color: red;
+    margin-top: 40px;
+}
+ .container button{
+    cursor: pointer;
+    background-color: lawngreen;
+    height: 40px;
+    width: 100px;
+    }
+#title{
+    word-spacing: 250px;
+}
+
+.show{
+display: flex;
+margin-top: 20px;
+font-weight: bold;
+}
+#player{
+    flex: 1;
+    }
+    #cmp{
+    flex: 1;
+    }
+table{
+margin-left: auto;
+margin-right: auto;
+}
+table thead{
+color: red;
+}
